@@ -1,0 +1,122 @@
+body, html {
+	font-family: 'Quicksand';
+	font-weight: 100;
+    max-width: 100%;
+    overflow-x: hidden;
+	text-align: center;
+
+}
+
+ul {
+	text-align: left;
+}
+
+.top {
+	text-align: left;
+}
+
+header h4 {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .jumbotron {
+	height: 92vh;
+}
+}
+
+.jumbotron {
+	margin: 57px 0 0 0;
+}
+
+.jumbotron h5 {
+	margin: 0 20px 0 0;
+}
+
+header {
+	margin: 50px 0 0 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+}
+
+#education {
+	margin: 50px 0 0 0;
+}
+
+.btn {
+	margin: 10px 0;
+}
+
+.jumbotron h1 {
+	font-family: 'Open Sans',sans-serif;
+}
+
+.padding-down {
+	padding: 0 0 20px 0;
+}
+
+.padding-left {
+	padding: 0 0 0 50px;
+}
+
+.padding-top {
+	padding: 70px 0 0 0;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.heading {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 50px;
+}
+
+.card {
+	width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.social a {
+	font-size: 4.5rem;
+	padding: 3rem;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-linkedin {
+	color: #0077B5;
+}
+
+.fa-github-square {
+	color: #6cc644;
+}
+
+.fa-instagram {
+	color: #517fa8;
+}
+
+.fa-linkedin:hover {
+	color: #006091;
+} 
+
+.fa-github-square:hover {
+	color: #569e36;
+}
+
+.fa-instagram:hover {
+	color: #3e6385;
+}
