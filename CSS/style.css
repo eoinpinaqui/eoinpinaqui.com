@@ -7,6 +7,10 @@ body, html {
 
 }
 
+ .jumbotron h1 {
+	font-size: 75px;
+}
+
 ul {
 	text-align: left;
 }
@@ -23,12 +27,6 @@ header h4 {
 @media only screen and (min-width: 992px) {
   .jumbotron {
 	height: 92vh;
-}
-}
-
-@media only screen and (max-width: 992px) {
-  .jumbotron h1 {
-	font-size: 50px;
 }
 }
 
