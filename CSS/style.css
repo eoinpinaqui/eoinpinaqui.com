@@ -120,3 +120,7 @@ nav a:hover {
 .fa-instagram:hover {
 	color: #3e6385;
 }
+
+.fab {
+	font-size: 50px;
+}
