@@ -24,10 +24,12 @@ header h4 {
   .jumbotron {
 	height: 92vh;
 }
-	
-.jumbotron h1 {
+}
+
+@media only screen and (max-width: 992px) {
+  .jumbotron h1 {
 	font-size: 50px;
-	}
+}
 }
 
 .jumbotron {
