@@ -1,101 +1,108 @@
 body, html {
-	font-family: 'Quicksand';
-	font-weight: 100;
-    max-width: 100%;
+	font-family: 'Lato', sans-serif !important;
+	color: black;
     overflow-x: hidden;
-	text-align: center;
-
 }
 
-ul {
-	text-align: left;
-}
+/* General */
 
-.top {
-	text-align: left;
-}
-
-header h4 {
-	font-family: 'Open Sans',sans-serif;
-	font-size: 30px;
-}
-
-@media only screen and (min-width: 992px) {
-  .jumbotron {
-	height: 92vh;
-}
-}
-
-.jumbotron {
-	margin: 57px 0 0 0;
-}
-
-.jumbotron h5 {
-	margin: 0 20px 0 0;
-}
-
-header {
-	margin: 50px 0 0 0;
-}
-
-nav a {
-	text-decoration: none;
-}
-
-nav a:hover {
-	text-decoration: none;
-}
-
-#education {
-	margin: 50px 0 0 0;
-}
-
-.btn {
-	margin: 10px 0;
-}
-
-.jumbotron h1 {
-	font-family: 'Open Sans',sans-serif;
-	font-size: 50px;
+.padding-left {
+	padding-left: 50px;
 }
 
 .padding-down {
-	padding: 0 0 20px 0;
-}
-
-.padding-left {
-	padding: 0 0 0 50px;
+	padding-bottom: 50px;
 }
 
 .padding-top {
-	padding: 70px 0 0 0;
+	padding-top: 50px;
+}
+
+.sm-padding-top {
+	padding-top: 20px;
+}
+
+.sm-padding-down {
+	padding-bottom: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+	background-color: rgb(247, 93, 93) !important;
+}
+
+.navbar-brand {
+	font-family: 'Merriweather', serif !important;
+	font-size: 30px !important;
+	font-weight: 900;
+	color: white !important;
+	letter-spacing: 3px;
+}
+
+.nav-link {
+	font-family: 'Lato', sans-serif !important; 
+	color: #434343 !important;
+	margin: 0 20px;
+}
+
+.nav-link:hover {
+	font-family: 'Lato', sans-serif !important; 
+	color: #000 !important;
+}
+
+/* Home */
+
+#home {
+	margin: 50px 0;
+}
+
+h1 {
+	font-family: 'Merriweather', serif !important;
+	font-size: 60px !important;
+	font-weight: 900;
+	color: black !important;
+	text-align: center;
+}
+
+#home p {
+	text-align: center;
 }
 
 .circle {
 	border-radius: 50%;
 }
 
-.heading {
+/* Header */
+
+.header {
 	margin: 0 auto;
+}
+
+/* Cards */
+
+.text-center {
 	text-align: center;
-	font-family: 'Open Sans',sans-serif;
-	font-size: 50px;
+}
+
+.card-title {
+	font-family: 'Merriweather', serif !important;
+	font-size: 30px !important;
 }
 
 .card {
-	width: 90%;
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+	margin: 20px 0;
 }
+
+/* Social */
 
 .social a {
 	font-size: 4.5rem;
 	padding: 3rem;
 }
 
-.fa-facebook {
-	color: #3b5998;
+.fab {
+	font-size: 50px;
 }
 
 .fa-linkedin {
@@ -122,6 +129,15 @@ nav a:hover {
 	color: #3e6385;
 }
 
-.fab {
-	font-size: 50px;
+/* Footer */
+
+footer {
+	background-color: #cccccc;
+	color: #2E2E2E;
+}
+
+.footer-header {
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+	font-weight: 900;
 }
