@@ -4,50 +4,62 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
 	<!-- CSS -->
 	<link href="CSS/style.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	
     <title>Eoin Pinaqui</title>
   </head>
   <body>
-  
-	<!-- About -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="#" style="margin: 0 0 0 50px">Eoin Pinaqui</a>
+    
+	<!-- Navbar -->
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<a class="navbar-brand" href="#">Eoin Pinaqui</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#education" style="margin: 0 0 0 50px">Education</a>
+     <ul class="navbar-nav">
+	 <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work" style="margin: 0 0 0 50px">Work Experience</a>
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work">Work Experience</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="#projects" style="margin: 0 0 0 50px">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="#skills" style="margin: 0 0 0 50px">Skills</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="#contact" style="margin: 0 0 0 50px">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
 	</div>
 	</nav>
 
-	<!-- Welcome -->
-	<div class="jumbotron jumbotron-fluid top">
+	<!-- Home -->
+	
+	<div id="home" class="jumbotron jumbotron-fluid top">
 		<div class="row">
-        <div class="container col-lg-8 padding-left">
-          <h1 class="display-3" style="margin: 0 20px 0 0">Introducing Eoin Pinaqui.</h1>
-          <h5 class="padding-down">I am a second year Integrated Computer Science undergraduate student in
+			<div class="container col-12 padding-down">
+				<h1>Introducing Eoin Pinaqui.</h1>
+			</div>
+		</div>
+		<div class="row">
+        <div class="container col-lg-6 padding-left">
+          <h5>I am a second year Integrated Computer Science undergraduate student in
 			  Trinity College Dublin and a recipient of the Naughton Foundation Scholarship 2018.
 			  I have a strong passion for programming and software development and have applied this in various
 			  different programming competitions and projects. I have a proven academic ability, work-ethic and
@@ -55,22 +67,35 @@
 			  a Summer Internship for the year 2020 to apply my coding experience by working in software development and programming teams.</h5>
           <p><a class="btn btn-primary btn-lg" href="data/Resume (1).pdf" role="button" target="_blank">See Resume</a></p>
         </div>
-		<div class="container col-lg-4 text-center"><img src="img/background.JPG" class="circle"></div>
+		<div class="container col-lg-6 text-center"><img class="circle" src="img/background.jpg"></div>
 		</div>
     </div>
-
-	<!-- Nav -->
-	
 	
 	<!-- Education -->
+	
 	<div id="education" class="container-fluid padding-down padding-top">
-	<div class="row padding-down">
-		<h1 class="heading">Education</h1>
+	<div class="row">
+		<h1 class="header padding-top">Education</h1>
 	</div>
 	</div>
 	
-	<div class="container-fluid padding-down">
-	<div class="row padding-down">
+	<div class="container-fluid padding-down text-center">
+	<div class="row">
+		<div class="col-sm-12 col-md-4">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/tcd.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Integrated Computer Science 2018-2022</h4>
+				<p class="card-text">I am currently studying Integrated Computer Science in Trinity College Dublin.<br>
+				Studying Computer Science has allowed me to
+				marry my passion for mathematics and technology and my interest in innovation
+				so that I can hopefully find a very rewarding career in software development
+				in the future.<br><br>First Year Grade: 86%</p>
+				<a href="https://scss.tcd.ie/undergraduate/computer-science/" class="btn btn-outline-secondary" target="_blank">Course Structure</a>
+				<a href="https://scss.tcd.ie/undergraduate/computer-science/jf/" class="btn btn-outline-secondary" target="_blank">Modules Taken</a>
+			</div>
+		</div>
+		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="card padding-down">
 			<img class="card-img-top" src="img/peters.jpg">
@@ -96,32 +121,17 @@
 			</div>
 		</div>
 		</div>
-		<div class="col-sm-12 col-md-4">
-		<div class="card padding-down">
-			<img class="card-img-top" src="img/tcd.jpg">
-			<div class="card-body">
-				<h4 class="card-title">Integrated Computer Science 2018-2022</h4>
-				<p class="card-text">I am currently studying Integrated Computer Science in Trinity College Dublin.<br>
-				Studying Computer Science has allowed me to
-				marry my passion for mathematics and technology and my interest in innovation
-				so that I can hopefully find a very rewarding career in software development
-				in the future.<br><br>First Year Grade: 86%</p>
-				<a href="https://scss.tcd.ie/undergraduate/computer-science/" class="btn btn-outline-secondary" target="_blank">Course Structure</a>
-				<a href="https://scss.tcd.ie/undergraduate/computer-science/jf/" class="btn btn-outline-secondary" target="_blank">Modules Taken</a>
-			</div>
-		</div>
-		</div>
 	</div>
 	</div>
 	
 	<!-- Work Experience -->
 	<div id="work" class="container-fluid padding-down padding-top">
-	<div class="row padding-down text-center">
-		<h1 class="heading text-center padding-down">Work Experience</h1>
+	<div class="row">
+		<h1 class="header padding-top">Work Experience</h1>
 	</div>
 	</div>
 	
-	<div class="container-fluid padding-down top">
+	<div class="container-fluid">
 	<div class="row padding-down">
 		<div class="col-sm-6">
 		<div class="card padding-down">
@@ -167,16 +177,17 @@
 	</div>
 	
 	<!-- Projects -->
+	
 	<div id="projects" class="container-fluid padding-down padding-top">
-	<div class="row padding-down">
-		<h1 class="heading padding-down">Projects and Competitions</h1>
+	<div class="row">
+		<h1 class="header padding-top">Projects and Competitions</h1>
 	</div>
 	</div>
 	
-	<div class="container-fluid padding-down">
-	<div class="row padding-down">
+	<div class="container-fluid text-center">
+	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/tcdnews.png">
 			<div class="card-body">
 				<h4 class="card-title">TCD News</h4>
@@ -187,7 +198,7 @@
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/background2.JPG">
 			<div class="card-body">
 				<h4 class="card-title">Personal Website</h4>
@@ -198,7 +209,7 @@
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/Connect-4.jpg">
 			<div class="card-body">
 				<h4 class="card-title">Arm Assembly Connect 4</h4>
@@ -209,7 +220,7 @@
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/reply.png">
 			<div class="card-body">
 				<h4 class="card-title">Reply Coding Challenge 2019</h4>
@@ -220,7 +231,7 @@
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/Call.jpg">
 			<div class="card-body">
 				<h4 class="card-title">Google - Call to Code Competition</h4>
@@ -230,7 +241,7 @@
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="card padding-down">
+		<div class="card">
 			<img class="card-img-top" src="img/DUCCS.jpg">
 			<div class="card-body">
 				<h4 class="card-title">DUCCS First Year Programming Competition</h4>
@@ -243,17 +254,16 @@
 	</div>
 	</div>
 	
-	
-	
 	<!-- Skills -->
+	
 	<div id="skills" class="container-fluid padding-down padding-top">
-	<div class="row padding-down">
-		<h1 class="heading padding-down">Skills</h1>
+	<div class="row">
+		<h1 class="header padding-top">Skills</h1>
 	</div>
 	</div>
 	
-	<div class="container-fluid padding-down top">
-	<div class="row padding-down">
+	<div class="container-fluid">
+	<div class="row">
 		<div class="col-sm-6">
 		<div class="card padding-down">
 			<img class="card-img-top" src="img/programming.png">
@@ -280,8 +290,8 @@
 			<div class="card-body">
 				<h4 class="card-title">Leadership</h4>
 				<p class="card-text">In 2017, I wont the All-Ireland Rotary Youth Leadership Development Competition and
-	served as an Irish Delegate in the European Parliament at a Euroscola Event.<br>
-	I have a lot of experience in leadership roles, such as:</p>
+				served as an Irish Delegate in the European Parliament at a Euroscola Event.<br>
+				I have a lot of experience in leadership roles, such as:</p>
 		<ul>
 		<li>Elected Spokesperson and Representative for Climate Action and the Enviornment at a Euroscola Event.</li>
 		<li>Level Head as a Sailing Instructor.</li>
@@ -297,20 +307,32 @@
 	</div>
 	
 	<!-- Contact -->
+	
 	<div id="contact" class="container-fluid padding-down padding-top">
-	<div class="row padding-down">
-		<h1 class="heading padding-down">Contact</h1>
+	<div class="row">
+		<h1 class="header padding-top">Contact</h1>
 	</div>
 	</div>
 	
-	<div class="container-fluid padding-down">
+	<div class="container-fluid padding-down text-center">
 	<div class="row padding-down">
 		<div class="col-xs-6 col-sm-4 social"><a href="https://www.linkedin.com/in/eoin-pinaqui/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
 		<div class="col-xs-6 col-sm-4 social"><a href="https://github.com/eoinpinaqui" target="_blank"><i class="fab fa-github-square"></i></a></div>
 		<div class="col-xs-12 col-sm-4 social"><a href="https://www.instagram.com/eoinpinaqui/" target="_blank"><i class="fab fa-instagram"></i></a></div>
 	</div>
 	</div>
-    
+	
+	<!-- Footer -->
+	
+	<footer class="sm-padding-top sm-padding-down text-center">
+		<div class="row">
+			<div class="col-6">eoinpinaqui1@gmail.com</div>
+			<div class="col-6">(086) 250 9817</div>
+		</div>
+	</footer>
+
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
