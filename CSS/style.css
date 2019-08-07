@@ -29,7 +29,7 @@ body, html {
 /* Navbar */
 
 .navbar {
-	background-color: rgb(247, 93, 93) !important;
+	background-color: rgb(109, 114, 237) !important;
 }
 
 .navbar-brand {
@@ -42,7 +42,7 @@ body, html {
 
 .nav-link {
 	font-family: 'Lato', sans-serif !important; 
-	color: #434343 !important;
+	color: #fff !important;
 	margin: 0 20px;
 }
 
@@ -54,7 +54,11 @@ body, html {
 /* Home */
 
 #home {
-	margin: 50px 0;
+	margin: 50px auto;
+}
+
+.btn {
+	margin: 20px 0;
 }
 
 h1 {
@@ -67,6 +71,7 @@ h1 {
 
 #home p {
 	text-align: center;
+	width: 80%;
 }
 
 .circle {
@@ -142,3 +147,11 @@ footer {
 	font-size: 30px;
 	font-weight: 900;
 }
+
+
+
+
+
+
+
+
