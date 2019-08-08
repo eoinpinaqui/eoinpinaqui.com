@@ -32,13 +32,13 @@ body, html {
 	font-family: 'Merriweather', serif !important;
 	font-size: 30px !important;
 	font-weight: 900;
-	color: black !important;
+	color: #000 !important;
 	letter-spacing: 3px;
 }
 
 .nav-link {
 	font-family: 'Lato', sans-serif !important; 
-	color: ##595959 !important;
+	color: #595959 !important;
 	margin: 0 20px;
 }
 
