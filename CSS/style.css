@@ -53,17 +53,18 @@ body, html {
 	margin: 50px auto;
 }
 
-.btn {
-	margin: 20px auto;
-	text-align: center;
-}
-
 h1 {
 	font-family: 'Merriweather', serif !important;
 	font-size: 60px !important;
 	font-weight: 900;
 	color: black !important;
 	text-align: center;
+}
+
+#home p {
+	margin: 20px auto;
+	text-align: center;
+	
 }
 
 .circle {
