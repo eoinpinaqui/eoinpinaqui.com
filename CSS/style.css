@@ -28,10 +28,6 @@ body, html {
 
 /* Navbar */
 
-.navbar {
-	background-color: rgb(109, 114, 237) !important;
-}
-
 .navbar-brand {
 	font-family: 'Merriweather', serif !important;
 	font-size: 30px !important;
