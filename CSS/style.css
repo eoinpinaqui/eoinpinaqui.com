@@ -1,140 +1,97 @@
-body, html {
-	font-family: 'Lato', sans-serif !important;
-	color: black;
-    overflow-x: hidden;
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+	font-weight: 100 !important;
 }
 
-/* General */
-
-.padding-left {
-	padding-left: 50px;
-}
-
-.padding-down {
-	padding-bottom: 50px;
-}
-
-.padding-top {
-	padding-top: 50px;
-}
-
-.sm-padding-top {
-	padding-top: 20px;
-}
-
-.sm-padding-down {
-	padding-bottom: 20px;
-}
-
-/* Navbar */
 
 .navbar-brand {
-	font-family: 'Merriweather', serif !important;
-	font-size: 30px !important;
-	font-weight: 900;
-	color: #fff !important;
-	letter-spacing: 3px;
+	letter-spacing: 0.5rem;
+	font-weight: 200 !important;
+	margin-left: 2rem;
 }
 
-.nav-link {
-	font-family: 'Lato', sans-serif !important; 
-	color: ##d6d6d6 !important;
-	margin: 0 20px;
+.nav-item {
+	margin: 0 1rem;
 }
 
-.nav-link:hover {
-	font-family: 'Lato', sans-serif !important; 
-	color: #828282 !important;
+.jumbotron {
+	margin-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff !important;
 }
-
-/* Home */
-
-#home {
-	margin: 50px auto;
+.text-center {
+    text-align: center!important;
 }
-
-h1 {
-	font-family: 'Merriweather', serif !important;
-	font-size: 60px !important;
-	font-weight: 900;
-	color: black !important;
-	text-align: center;
+.jumbotron {
+    padding: 2rem 1rem;
+    border-radius: .3rem;
 }
 
 .circle {
 	border-radius: 50%;
 }
 
-.btn {
-	margin: 10px 0;
-}
-
-/* Header */
-
-.header {
-	margin: 0 auto;
-	font-size: 50px !important;
-}
-
-/* Cards */
-
-.text-center {
-	text-align: center;
-}
-
-.card-title {
-	font-family: 'Merriweather', serif !important;
-	font-size: 30px !important;
+.rest {
+	background-color: #f8f9fa!important;
 }
 
 .card {
-	margin: 20px 0;
+	margin: 2rem 0.5rem;
 }
 
-/* Social */
+.rest h1 {
+	padding-top: 6rem;
+}
 
 .social a {
 	font-size: 4.5rem;
 	padding: 3rem;
 }
 
-.fab {
-	font-size: 50px;
-}
-
 .fa-linkedin {
 	color: #0077B5;
-}
-
-.fa-github-square {
-	color: #6cc644;
-}
-
-.fa-instagram {
-	color: #517fa8;
 }
 
 .fa-linkedin:hover {
 	color: #006091;
 } 
 
+.fa-github-square {
+	color: #6cc644;
+}
+
 .fa-github-square:hover {
 	color: #569e36;
 }
 
-.fa-instagram:hover {
-	color: #3e6385;
+.fa-envelope {
+	color: #fc4949;
 }
 
-/* Footer */
+.fa-envelope:hover  {
+	color: #b32525;
+}
+
+hr {
+	width: 98%;
+}
 
 footer {
-	background-color: #cccccc;
-	color: #2E2E2E;
+	color: gray;
 }
 
-.footer-header {
-	font-family: 'Merriweather', serif;
-	font-size: 30px;
-	font-weight: 900;
+footer a {
+	color: gray;
 }
+
+
+
