@@ -28,9 +28,15 @@ body {
     margin-bottom: 0;
     background-color: #fff !important;
 }
+
 .text-center {
     text-align: center!important;
 }
+
+#id {
+    font-size: 3rem;
+}
+
 .jumbotron {
     padding: 2rem 1rem;
     border-radius: .3rem;
