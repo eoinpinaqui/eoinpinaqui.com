@@ -1,61 +1,70 @@
-body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif !important;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
-	font-weight: 100 !important;
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	overflow-x: hidden;
 }
 
-
-.navbar-brand {
-	letter-spacing: 0.5rem;
-	font-weight: 200 !important;
-	margin-left: 2rem;
+nav {
+	background-color: white;
 }
 
-.nav-item {
-	margin: 0 1rem;
+.navbar a, h1 {
+	margin: 20px auto 0 auto;
+	letter-spacing: 1px;
+	font-size: 20px !important;
+	font-weight: 700 !important;
 }
 
-.jumbotron {
-	margin-top: 6rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff !important;
+.links {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#link {
+	font-size: 13px !important;
+	font-weight: 500 !important;
+	margin: 0 10px 5px 10px;
+	color: #AAA;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #333 !important; 
 }
 
 .text-center {
-    text-align: center!important;
+	text-align: center;
 }
 
-#CV {
-    font-size: 1.5rem;
+#about {
+	margin: 150px 0 0 0px;
 }
 
-.jumbotron {
-    padding: 2rem 1rem;
-    border-radius: .3rem;
+img {
+	width: 60%;
+	margin: 20px auto 30px auto;
 }
 
-.circle {
-	border-radius: 50%;
+.text {
+	margin: 0 auto;
+	width: 80%;
+}
+
+h3 {
+	letter-spacing: 1px;
+	font-size: 15px !important;
+	font-weight: 700 !important;
+}
+
+
+
+.row{
+	margin: 20px 0 20px 0;
 }
 
 .rest {
-	background-color: #f8f9fa!important;
-}
-
-.card {
-	margin: 2rem 0.5rem;
-}
-
-.rest h1 {
-	padding-top: 6rem;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .social a {
@@ -87,17 +96,10 @@ body {
 	color: #b32525;
 }
 
-hr {
-	width: 98%;
+#contact {
+	margin: 50px 0;
 }
 
-footer {
-	color: gray;
-}
-
-footer a {
-	color: gray;
-}
 
 
 
