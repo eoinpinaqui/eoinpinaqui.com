@@ -1,70 +1,61 @@
-html {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	overflow-x: hidden;
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+	font-weight: 100 !important;
 }
 
-nav {
-	background-color: white;
+
+.navbar-brand {
+	letter-spacing: 0.5rem;
+	font-weight: 200 !important;
+	margin-left: 2rem;
 }
 
-.navbar a, h1 {
-	margin: 20px auto 0 auto;
-	letter-spacing: 1px;
-	font-size: 20px !important;
-	font-weight: 700 !important;
+.nav-item {
+	margin: 0 1rem;
 }
 
-.links {
-	margin: 0 auto;
-	text-align: center;
-}
-
-#link {
-	font-size: 13px !important;
-	font-weight: 500 !important;
-	margin: 0 10px 5px 10px;
-	color: #AAA;
-	text-decoration: none;
-}
-
-a:hover {
-  color: #333 !important; 
+.jumbotron {
+	margin-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff !important;
 }
 
 .text-center {
-	text-align: center;
+    text-align: center!important;
 }
 
-#about {
-	margin: 150px 0 0 0px;
+#CV {
+    font-size: 1.5rem;
 }
 
-img {
-	width: 60%;
-	margin: 20px auto 30px auto;
+.jumbotron {
+    padding: 2rem 1rem;
+    border-radius: .3rem;
 }
 
-.text {
-	margin: 0 auto;
-	width: 80%;
-}
-
-h3 {
-	letter-spacing: 1px;
-	font-size: 15px !important;
-	font-weight: 700 !important;
-}
-
-
-
-.row{
-	margin: 20px 0 20px 0;
+.circle {
+	border-radius: 50%;
 }
 
 .rest {
-	width: 80%;
-	margin: 0 auto;
+	background-color: #f8f9fa!important;
+}
+
+.card {
+	margin: 2rem 0.5rem;
+}
+
+.rest h1 {
+	padding-top: 6rem;
 }
 
 .social a {
@@ -96,10 +87,14 @@ h3 {
 	color: #b32525;
 }
 
-#contact {
-	margin: 50px 0;
+hr {
+	width: 98%;
 }
 
+footer {
+	color: gray;
+}
 
-
-
+footer a {
+	color: gray;
+}
