@@ -36,6 +36,10 @@ body {
     font-size: 1.5rem;
 }
 
+.lead {
+   font-size: 20px;
+}
+
 .jumbotron {
     padding: 2rem 1rem;
     border-radius: .3rem;
