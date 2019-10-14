@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,112 +10,270 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <title>Eoin Pinaqui</title>
-</head>
-<body>
-	<div>
-		<div class = "row">
-		<nav class="navbar fixed-top navbar-light">
-			<a class="navbar-brand" href="#">EOIN PINAQUI</a>
-		<div class = "col-12">
-			<div class = "links">
-			<a id = "link" href="#projects">PROJECTS</a>
-			<a id = "link" href="#contact">CONTACT</a>
+  </head>
+  <body>
+    
+	<!-- Navbar -->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+	<a class="navbar-brand" href="#">Eoin Pinaqui</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav">
+	 <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+	      <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+	      <a class="nav-link" href="#education">Education</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#work">Work Experience</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+	</div>
+	</nav>
+
+<section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Introducing Eoin Pinaqui</h1>
+      <p class="lead text-muted">I am an ambitious and hardworking second year Computer Science student
+		interested in programming and software development.<br>I have a proven
+		academic ability and work ethic that I take with me into every aspect of my
+		professional life.<br>My passions lie in technology and leadership.</p>
+      <h1>
+        <a href="data/Resume (1).pdf" id="CV" class="btn btn-primary my-2" target="_blank">See my CV</a>
+      </h1>
+	  <img class="circle" src="img/background.JPG">
+    </div>
+</section>
+
+
+<div class="rest">
+	
+<div id = "projects" class="text-center"><h1>Projects and Competitions</h1></div>
+	
+	<div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/tcdnews.png">
+			<div class="card-body">
+				<h4 class="card-title">TCD News</h4>
+				<p class="card-text">Project Managed and programmed this Social News Aggregator using
+				Processing (Java) IDE.<br>Received a grade of 89%.</p>
+				<a href="https://github.com/eoinpinaqui/TCD-News" class="btn btn-outline-secondary" target="_blank">See Project on GitHub</a>
 			</div>
 		</div>
-		</nav>
 		</div>
-	</div>
-	<div id = "about">
-		<div class = "row">
-		<div class = " col-md-6">
-		<div class = "text-center"><img src="img/background.JPG"></div>
-		</div>
-		<div class = " col-md-6">
-			<p class = "bio text">I am a hardworking second year Integrated Computer Science
-			student in Trinity College Dublin and a recipient of the Naughton Foundation Scholarship 2018.<br>
-			<br>My passions lie in the field of Software Development and Leadership. I have applied these passions
-			in various projects and competitions, in software engineering and management
-			roles. I have a proven academic ability, work ethic and enthusiasm that I take with me in every aspect of my professional
-			life.
-			<br><br>I am seeking a Summer Internship for the year 2020 to apply my coding experience by working in
-			software development and programming teams.</p>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/background2.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Personal Website</h4>
+				<p class="card-text">After completing my first year in college, I taught myself how to use HTML,
+				CSS and Bootstrap for front-end web development. </p>
+				<a href="https://github.com/eoinpinaqui/Eoin-Pinaqui" class="btn btn-outline-secondary" target="_blank">See Project on GitHub</a>
+			</div>
 		</div>
 		</div>
-	</div>
-	<div id = "projects">
-		<div class = "row">
-		<div class = "col-12 text-center">
-		<h1 style = "padding: 100px 0 50px 0">THINGS THAT I'M PROUD OF</h1>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/Connect-4.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Arm Assembly Connect 4</h4>
+				<p class="card-text">Programmed a Connect Four Game using Arm Assembly Language for my Introduction to Computing 2 module.
+				<br>Received a grade of 99%.</p>
+				<a href="https://github.com/eoinpinaqui/Connect-4" class="btn btn-outline-secondary" target="_blank">See Project on GitHub</a>
+			</div>
 		</div>
 		</div>
-	</div>
-	<div class = "rest">
-	<div id = "projects-content text-center">
-		<div class = "row">
-		<div class = "col-lg-6">
-			<h3 class = "text">Telecommunications - Command and Control</h3>
-			<p class = "text">I designed a protocol that forwards messages from a Command & Control (C&C) applicationto a 
-			broker which in turn distributes these messages to a number of Workers.
-			<br><br>I used Docker to create containers and to test the functionality of this project.</p>
-		</div>
-		<div class = "col-lg-6">
-		<div class = "text-center"><img src="img/docker.jpg"></div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/reply.png">
+			<div class="card-body">
+				<h4 class="card-title">Reply Coding Challenge 2019</h4>
+				<p class="card-text">Lead a team of three in the Reply Coding Challenge 2019,
+				where we came 256th out of 2859 teams.</p>
+				<a href = "https://www.reply.com/en/newsroom/events/code-challenge-15-03-2019" class="btn btn-outline-secondary" target="_blank">Learn More</a>
+			</div>
 		</div>
 		</div>
-		<hr>
-		<div class = "row">
-		<div class = "col-lg-6">
-		<div class = "text-center"><img src="img/tcdnews.png"></div>
-		</div>
-		<div class = "col-lg-6">
-			<h3 class = "text">TCD News - Social News Aggregator</h3>
-			<p class = "text">I project managed a team of four programmers that built an
-			interface capable of exploring over 6GB of news stories and comments
-			using the Processing (Java) IDE, as the major component to my Programming
-			Project 1 module.<br><br>I worked on both front end and back end elements 
-			of this application, building various widgets to sort through the data 
-			and the functionality behind those widgets too. As well as writing 
-			extensive amounts of code, I organized all of our meetings, lead our 
-			brainstorming sessions and managed our schedule so that we could 
-			deliver the best project possible. I achieved a grade of 89% on this project.</p>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/Call.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Google - Call to Code Competition</h4>
+				<p class="card-text">Came in the top 30 participants all over Ireland in the Junior Section of the Google - Call to Code Competition 2013,
+				narrowly missing the qualification requirements for the National Final. I competed in this competition in First Year of Secondary School.</p>
+			</div>
 		</div>
 		</div>
-		<hr>
-		<div class = "row">
-		<div class = "col-lg-6">
-			<h3 class = "text">Personal Website</h3>
-			<p class = "text">After completing my first year in Trinity College Dublin, 
-			I taught myself HTML and CSS to build a personal online resume.
-			<br><br>Web Development has always interested me and I believe there is no better 
-			way to learn than to work on side projects. I am always working on this web 
-			page to improve it, and will be adding new features as I learn more about the Web Development process.</p>
-		</div>
-		<div class = "col-lg-6">
-		<div class = "text-center"><img src="img/background2.jpg"></div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/DUCCS.jpg">
+			<div class="card-body">
+				<h4 class="card-title">DUCCS First Year Programming Competition</h4>
+				<p class="card-text">I placed in the 8th out of over 50 participants in a Programming Competition for first years run by the
+				Dublin University Computer Science Society. This competition was designed to help first years develop their problem-solving
+				and programming skills.</p>
+			</div>
 		</div>
 		</div>
-		<hr>
-		<div class = "row">
-		<div class = "col-lg-6">
-		<div class = "text-center"><img src="img/Connect-4.jpg"></div>
-		</div>
-		<div class = "col-lg-6">
-			<h3 class = "text">ARM Assembly - Connect Four</h3>
-			<p class = "text">As part of my Introduction to Computing 2 module, I wrote an Arm Assembly Program 
-			that allows a user to play a game of Connect 4 against a simple computer player. This program uses two-dimensional
-			arrays to store pieces and the computer will always block immediate wins from occuring.
-			<br><br>I received a grade of 98%, only losing marks for my accompanying Word Document, 
-			meaning that this code was deemed to be "perfect" by my lecturer.</p>
-		</div>
-		</div>
-		<hr>
 	</div>
 	</div>
 
+<div id = "education" class="text-center"><h1>Education</h1></div>
+
+	<div class="container-fluid padding-down text-center">
+	<div class="row">
+		<div class="col-md-4">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/tcd.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Integrated Computer Science 2018-2022</h4>
+				<p class="card-text">Studying Computer Science in Trinity College Dublin has allowed me to
+				marry my passion for mathematics, technology and innovation.<br><br>I was awarded the Book 
+				Prize for my first year exam results.
+				<br><br>First Year Grade: 86%<br>3.98 / 4.00 GPA equivalent</p>
+				<a href="https://scss.tcd.ie/undergraduate/computer-science/" class="btn btn-outline-secondary" target="_blank">Course Structure</a>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-4">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/background1.JPG">
+			<div class="card-body">
+				<h4 class="card-title">Recipient of the Naughton Scholarship 2018</h4>
+				<p class="card-text">I was chosen as one of 36 students nationwide for the Naughton Foundation
+				Scholarship. The scholarship programme was established to promote the study of engineering,
+				science and technology at third level in Ireland by awarding scholarships to exceptional STEM students
+				every year.</p>
+				<a href="https://www.thenaughtonfoundation.com/" class="btn btn-outline-secondary" target="_blank">Scholarship Website</a>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-4">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/peters.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Leaving Certificate Results</h4>
+				<p class="card-text">My Leaving Certificate results
+				placed me in the top 0.001% of all students who sat the state exams in 2018.
+				<br><br>I acheived the points maximum of 625 in the Leaving Certificate by 
+				getting H1 grades in seven subjects.</p>
+				<a href="https://www.stpeterscollege.ie/" class="btn btn-outline-secondary" target="_blank">School Website</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id = "work" class="text-center"><h1>Work Experience</h1></div>
+	
+	<div class="container-fluid">
+	<div class="row padding-down">
+		<div class="col-md-6">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/council.jpg">
+			<div class="card-body">
+				<h4 class="card-title">IT Intern - Wexford County Council</h4>
+				<p class="card-text">For the months of June, July and August in 2019, I worked as a Summer
+		Student in the IT Department of Wexford County Council.<br> 
+		Here are some of the responsibilites that I had while working in the council:
+			<ul>
+			<li>Protected over 700 machines from security threats, such as the BlueKeep vulnerability by using 
+			Solarwinds Patch Manager to manage the automated Patch Management Process. </li>
+			<li>Set up the ManageEngine Desktop Central system by installing agents on and configuring over 400 
+			machines. </li>
+			<li>Updated over 100 machines from Windows 7 to Windows 10 Enterprise by creating and deploying images to different departments.</li>
+			</ul></p>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-6">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/topper.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Sailing Instructor</h4>
+				<p class="card-text">For two Summers, I worked as a Sailing Instructor in Wexford Harbour Boat and Tennis Club.
+				Here is some of the things that I did as a Sailing Instructor:
+			<ul>
+			<li>Lead teams as the Level Head on 4 training courses. </li>
+			<li>Organised 6 successful day trips. </li>
+			<li>Instructed over 50 trainees with a 90% pass rate.</li>
+			<li>Instructed Start Sailing, Basic Skills, Improving Skills and Advanced Boat Handling.</li>
+			<li>Completed Child Safety and First Aid courses with distinction.</li>
+			</ul></p>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id = "skills" class="text-center"><h1>Skills</h1></div>
+	
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/programming.png">
+			<div class="card-body">
+				<h4 class="card-title">Technology</h4>
+				<p class="card-text">I adore everything Maths,
+				Technology and Science. I am constantly and consistently
+				looking for any and all opportunities to deepen my understanding of these areas,
+				by taking classes and teaching myself new things all the time.
+				<br><br>I have extensive experience with:
+			<ul>
+			<li>Object-Oriented Programming using Java</li>
+			<li>Arm Assembly Language Programming.</li>
+			<li>Using Github and Subversion to work on programming teams.</li>
+			<li>Using HTML, CSS and Bootstrap for front-end Web Development.</li>
+			<li>Using Matlab to analyse and manipulate analogue and digital signals.</li>
+			<li>Problem Solving and Mathematical Skills.</li>
+			<li>Microsoft Office Word, Powerpoint and Excel.</li>
+			</ul></p>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-6">
+		<div class="card padding-down">
+			<img class="card-img-top" src="img/euroscola.JPG">
+			<div class="card-body">
+				<h4 class="card-title">Leadership</h4>
+				<p class="card-text">Here is a list of my Leadership experience:</p>
+		<ul>
+		<li>Winner of the All-Ireland Rotary Youth Leadership Development Competition 2017.</li>
+		<li>Served as an Irish Delegate in the European Parliament at a Euroscola Event.</li>
+		<li>Elected Spokesperson and Representative for Climate Action and the Environment in the European Parliament at a Euroscola event.</li>
+		<li>Level Head as a Sailing Instructor.</li>
+		<li>Team Leader of three programmers in Reply Coding Challenge 2019.</li>
+		<li>Team Leader in Computers and Society module in Trinity College Dublin.</li>
+		<li>Project Manager in Programming Project 1 module in Trinity College Dublin.</li>
+		<li>Meitheal Leader in my final year of Secondary School.</li>
+		<li>Student of the Year nominee in my final year of Secondary School.</li>
+		<li>Debating Mentor for four years in Secondary School.</li>
+		</ul></p>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
 	
 	<div id = "contact" class="text-center"><h1>Get in Touch!</h1></div>
 	<div class="container-fluid padding-down text-center">
@@ -125,6 +283,40 @@
 		<div class="col-sm-4 social"><a href = "mailto: pinaquie@tcd.ie" target="_blank"><i class="far fa-envelope"></i></a></div>
 	</div>
 	</div>
+	
+	<footer>
+	<hr>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6">
+		<h5>About me</h5>
+		<p>A hardworking Computer Science Student passionate about coding.</p>
+		</div>
+		<div class="col-sm-6">
+		<h5>Contact</h5>
+		<p>pinaquie@tcd<br>
+		<a href="https://www.linkedin.com/in/eoin-pinaqui/" target="_blank">Eoin Pinaqui on LinkedIn</a><br>
+		<a href="https://github.com/eoinpinaqui" target="_blank">eoinpinaqui on GitHub</a></p>
+		</div>
+	</div>
+	</div>
+	</footer>
+	
+</div>
 
-</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+<script src="jquery.localscroll.js" type="text/javascript"></script> 
+<script src="jquery.scrollTo.js" type="text/javascript"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+   $('#nav').localScroll({duration:800});
+});
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
