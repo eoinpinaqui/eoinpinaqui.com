@@ -22,7 +22,7 @@ body {
 }
 
 .jumbotron {
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
     background-color: #fff !important;
@@ -38,11 +38,6 @@ body {
 
 .lead {
    font-size: 20px;
-}
-
-.jumbotron {
-    padding: 2rem 1rem;
-    border-radius: .3rem;
 }
 
 .circle {
