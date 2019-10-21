@@ -7,6 +7,10 @@
 	border-bottom: 1px solid rgb(210, 210, 210);
 }
 
+.navbar-brand {
+	margin: 0 20px;
+}
+
 #home {
 	background-color: rgb(256, 256, 256) !important;
 }
