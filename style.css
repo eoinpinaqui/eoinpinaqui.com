@@ -1,0 +1,68 @@
+.text-center {
+	text-align: center;
+}
+
+.navbar {
+	background-color: rgb(240, 240, 240) !important;
+	border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+#home {
+	background-color: rgb(256, 256, 256) !important;
+}
+
+.display-4 {
+	font-weight: 900;
+	color: rgb(0, 171, 68);
+	font-size: 2.8em;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 80%;
+}
+
+.CV {
+	margin: 0 0 50px 0;
+}
+
+.content {
+	margin-top: 5em;
+}
+
+.card-deck {
+	margin-top: 3em !important;
+}
+
+.margin-top {
+	margin: 20px 0 0 0;
+}
+
+.fa-linkedin {
+	color: #0077B5;
+}
+
+.fa-linkedin:hover {
+	color: #006091;
+} 
+
+.fa-github-square {
+	color: #6cc644;
+}
+
+.fa-github-square:hover {
+	color: #569e36;
+}
+
+.icon {
+	font-size: 5em;
+	margin: 0 1em;
+}
+
+.footer {
+	background-color: rgb(240, 240, 240) !important;
+}
+
+.links {
+	padding: 25px 0 0 0;
+}
