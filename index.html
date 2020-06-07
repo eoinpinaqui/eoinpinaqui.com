@@ -10,267 +10,154 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+
     <title>Eoin Pinaqui</title>
   </head>
   <body>
 
-    <div class="fixed-top container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-        <a class="navbar-brand" href="#">Eoin Pinaqui</a>
+  <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav" style="margin: 0 auto">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#work">Experience</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
-        </div>
-      </nav>
+      </nav>      
   </div>
-  <div class="container content">
-    <div class="jumbotron" id="home">
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="display-4">Introducing<br>Eoin Pinaqui.</h1>
-          <p class="lead">I am an ambitious and hardworking second year Computer Science student interested in programming and software development.<br>I have a proven academic ability and work ethic that I take with me into every aspect of my professional life.<br>My passions lie in technology and leadership.</p>
-          <div class="text-center"><a class="btn btn-success btn-lg CV" target="_blank" href="data/Resume - Eoin Pinaqui.pdf" role="button">See my CV</a></div>
-        </div>
-        <div class="col-lg-6">
-          <div class="text-center"><img class="circle" src="img/headshot.jpg"></div>
-        </div>
-      </div>
-      <div id="projects"></div>
-    </div>
-    <div class="jumbotron">
-      <div class="row">
-        <h1 class="display-4 indent">Projects that I'm proud of</h1>
-        <div class="card-deck">
-          <div class="card">
-            <img src="img/NetSoc.png" class="card-img-top" alt="Connect Four.">
-            <div class="card-body">
-              <h5 class="card-title">NetSoc Webspaces</h5>
-              <p class="card-text">I am currently part of a team which is creating a web based application that allows Dublin University Internet Society members to interact with the containers that their personal websites are hosted on.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/tcdnews.png" class="card-img-top" alt="A screenshot from my TCD News project.">
-            <div class="card-body">
-              <h5 class="card-title">TCD News - Social News Aggregator</h5>
-              <p class="card-text">As the major component to my Programming Project 1 module, I project managed and programmed this social news aggregator, capable of browsing over 4GB of HackerNews stories and comments. This project was written in the Processing (Java) IDE. I received a grade of 89% on this project.</p>
-              <div class="text-center margin-top"><a href="https://github.com/eoinpinaqui/TCD-News" target="_blank" class="btn btn-success">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck">
-          <div class="card">
-            <img src="img/OpenFlow.png" class="card-img-top" alt="A screenshot from my TCD News project.">
-            <div class="card-body">
-              <h5 class="card-title">Open Flow Implentation</h5>
-              <p class="card-text">I received 105% on my implementation of the Open Flow routing protocol with extra credit. This project allows users to send messages across a network of Open Flow switches and uses Dijkstra’s Algorithm to determine the shortest path between routers and endpoints.</p>
-              <div class="text-center margin-top"><a href="https://github.com/eoinpinaqui/Open-Flow" target="_blank" class="btn btn-success">See this project on Github</a></div>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/telecommunications.jpg" class="card-img-top" alt="A picture depicting digital communication.">
-            <div class="card-body">
-              <h5 class="card-title">Command and Control Assignment</h5>
-              <p class="card-text">I wrote a program that allows a user to send work through a Command and Control server to a Broker, which will distribute the work out to a number of workers. The program works for any number of workers that are connected to the network. The workers are able to volunteer for work and will print the messages that are sent to it by the Broker.</p>
-              <div class="text-center margin-top"><a href="https://github.com/eoinpinaqui/Command-and-Control" target="_blank" class="btn btn-success">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck">
-          <div class="card">
-            <img src="img/calculator.jpg" class="card-img-top" alt="Cartoon Calculator.">
-            <div class="card-body">
-              <h5 class="card-title">Postfix and Infix Calculator</h5>
-              <p class="card-text">I wrote a simple calculator program in C to teach myself about pointers and how they work, as well as to familiarise myself with Ubuntu and the Linux operating system. This calculator implements both infix and postfix functionality.</p>
-              <div class="text-center margin-top"><a href="https://github.com/eoinpinaqui/Calculator" target="_blank" class="btn btn-success">See this project on Github</a></div>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/reply.png" class="card-img-top" alt="The Reply Coding Challenge Logo.">
-            <div class="card-body">
-              <h5 class="card-title">Reply Coding Challenge</h5>
-              <p class="card-text">I led a team of three programmers in the Reply Coding Challenge 2019, where we came 256th out of 2859 teams. This was a great experience to apply the programming concepts that we had learned in first year in a competitive environment. I enjoyed my participation in this competition immensely.</p>
-              <div class="text-center margin-top"><a href="https://www.reply.com/en/newsroom/news/reply-code-challenge-2019" target="_blank" class="btn btn-success">Learn more</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck">
-          <div class="card">
-            <img src="img/Connect-4.jpg" class="card-img-top" alt="Connect Four.">
-            <div class="card-body">
-              <h5 class="card-title">Connect Four Game</h5>
-              <p class="card-text">I programmed a Connect Four game with a simple computer player as part of my Introduction to Computing 2 module. I received a grade of 99% on this project. </p>
-              <div class="text-center margin-top"><a href="https://github.com/eoinpinaqui/Connect-4" target="_blank" class="btn btn-success">See this project on Github</a></div>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/duccs.jpg" class="card-img-top" alt="The DUCCS Logo.">
-            <div class="card-body">
-              <h5 class="card-title">Dublin University Computer Science Society Programming Competition</h5>
-              <p class="card-text">I came 5th in the DUCCS first-year programming competition in Trinity College Dublin. This was my first experience of competitive programming and participating in this competition really ignited my passion for coding.</p>
-            </div>
-          </div>
-      </div>
-      </div>
-      <div id="education"></div>
-    </div>
-      <div class="jumbotron">
-        <div class="row">
-          <h1 class="display-4 indent">Studies and scholarships</h1>
-          <div class="card-deck">
-            <div class="card">
-            <img src="img/trinity.jpg" class="card-img-top" alt="Trinity College Dublin.">
-            <div class="card-body">
-              <h5 class="card-title">Integrated Computer Science 2018-2022</h5>
-              <p class="card-text">Studying Computer Science in Trinity College Dublin has allowed me to marry my passion for mathematics, technology and innovation.<br><br>I was awarded the Book Prize for my first year exam results.<br><br>First Year Grade: 1.1 (86% Overall) - 3.98 / 4.00 GPA equivalent</p>
-              <div class="text-center margin-top"><a href="https://scss.tcd.ie/undergraduate/computer-science/" target="_blank" class="btn btn-success">Course Structure</a></div>
-            </div>
-            </div>
-            <div class="card">
-              <img src="img/naughton.JPG" class="card-img-top" alt="Me receiving my scholarship.">
-              <div class="card-body">
-              <h5 class="card-title">Naughton Foundation Scholarship 2018</h5>
-              <p class="card-text">I was chosen as one of 36 students nationwide for the Naughton Foundation Scholarship. The scholarship programme was established to promote the study of engineering, science and technology at third level in Ireland by awarding scholarships to exceptional STEM students every year.<br><br>I received this scholarship because my Leaving Certificate results placed me in the top 0.01% of students in Ireland in 2018 (Seven H1s in seven subjects).</p>
-              <div class="text-center margin-top"><a href="https://www.thenaughtonfoundation.com/" target="_blank" class="btn btn-success">Learn more</a></div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div id="work"></div>
-      </div>
-      <div class="jumbotron" id="work">
-        <div class="row">
-          <h1 class="display-4 indent">Professional experience</h1>
-          <div class="card-deck">
-          <div class="card">
-            <img src="img/wexfordcoco.jpg" class="card-img-top" alt="Wexford County Council.">
-            <div class="card-body">
-              <h5 class="card-title">IT Intern - Wexford County Council</h5>
-              <p class="card-text">I spent my Summer after my first year in college working as an IT intern in Wexford County council. Here is a list of some of the things I accomplished in my time as an IT intern:
-                <ul>
-                  <li>Protected over 700 machines from security threats such as the BlueKeep vulnerability using Solarwinds Patch Manager to manage the automated patch management process.</li>
-                  <li>Set up the ManageEngine Desktop Central system by installing agents on and configuring over 400 machines.</li>
-                  <li>Updated over 100 computers from Windows 7 to Windows 10 Enterprise by creating and deploying images to different departments.</li>
-                  <li>Worked as IT support for the entire Council, where I logged issues in departmental spreadsheets and provided solutions to general IT problems.</li>
-                </ul></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/tcdsu.jpg" class="card-img-top" alt="Trinity College Dublin Students Union.">
-            <div class="card-body">
-              <h5 class="card-title">Class Representative - 2nd Year Computer Science 2019/2020</h5>
-              <p class="card-text">I was elected as a Class Representative for Second Year Computer Science this September and I have been working with the Students Union to improve the facilities that are available to my class. Here is a list of things that I have done so far as a Class Representative:
-                <ul>
-                  <li>Organised a Scholarship Information Evening for all second-year students in the School of Computer Science and Statistics.</li>
-                  <li>Been elected to a position on the STEM Ball organisation committee.</li>
-                  <li>Attended and spoken at Student Union Council and EMS Faculty Assembly.</li>
-                </ul></p>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck">
-          <div class="card">
-            <img src="img/topper.jpg" class="card-img-top" alt="Topper Sailing.">
-            <div class="card-body">
-              <h5 class="card-title">Sailing Instructor</h5>
-              <p class="card-text">For two Summers, I worked as a Sailing Instructor in Wexford Harbour Boat and Tennis Club. Here is some of the things that I did as a Sailing Instructor: 
-                <ul>
-                  <li>Lead teams as the Level Head on 4 training courses.</li>
-                  <li>Organised 6 successful day trips. </li>
-                  <li>Instructed over 50 trainees with a 90% pass rate.</li>
-                  <li>Instructed Start Sailing, Basic Skills, Improving Skills and Advanced Boat Handling.</li>
-                  <li>Completed Child Safety and First Aid courses with distinction.</li>
-                </ul></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/danone.jpg" class="card-img-top" alt="Danone Nutricia logo.">
-            <div class="card-body">
-              <h5 class="card-title">Transition Year Work Experience</h5>
-              <p class="card-text">In my fourth year of secondary school, I spent two weeks obtaining professional work experience in Wexford General Hospital and Danone Nutricia.<br><br>I spent the majority of my time observing doctors and lab workers as they performed their regular duties. I learned a lot from my time in work experience, but ultimately I decided not to go down these avenues in college.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div id="skills"></div>
-      </div>
-      <div class="jumbotron">
-        <div class="row">
-          <h1 class="display-4 indent">Important skills I possess</h1>
-          <div class="card-deck">
-          <div class="card">
-            <img src="img/tech.jpg" class="card-img-top" alt="Cartoon depicting technology.">
-            <div class="card-body">
-              <h5 class="card-title">Technology</h5>
-              <p class="card-text">Here are some of the technical skills that I pride myself on:
-                <ul>
-                  <li>Object Oriented Programming using Java and C++.</li>
-                  <li>Using Algorithms and Data Structures to solve problems creatively.</li>
-                  <li>Implementing solutions to problems using Arm Assembly Language Programming.</li>
-                  <li>Designing Information Systems using UML Diagrams, XML and Jquery.</li>
-                  <li>Network programming for digital communication problems.</li>
-                  <li>Using Github and Subversion to collaborate on projects in programming teams.</li>
-                  <li>Using HTML, CSS and Bootstrap for front-end web development.</li>
-                  <li>Manipulating and analysing analogue and digital signals using Matlab.</li>
-                  <li>Critical thinking, problem solving and mathematical skills.</li>
-                </ul></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/euroscola.JPG" class="card-img-top" alt="Me at Euroscola.">
-            <div class="card-body">
-              <h5 class="card-title">Leadership</h5>
-              <p class="card-text">Here is a list of my leadership experience:
-                <ul>
-                  <li>Class Representative of Second Year Computer Science 2019/2020.</li>
-                  <li>Winner of the All-Ireland Rotary Youth Leadership Development Competition 2017.</li>
-                  <li>Irish Youth Delegate in the European Parliament at a Euroscola event.</li>
-                  <li>Elected Spokesperson for Climate Action and the Environment at said Euroscola event.</li>
-                  <li>Level Head as a Sailing Instructor.</li>
-                  <li>Team Leader of three programmers in Reply Coding Challenge 2019.</li>
-                  <li>Team Leader and Project Manager in Information Management 1, Computers and Society and Programming Project 1 modules in Trinity College Dublin.</li>
-                  <li>Student of the Year nominee in my final year of Secondary School.</li>
-                </ul></p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="text-center">
-      <div id="contact">
-        <h1 class="display-4">Get in touch!</h1>
-        <a href="https://www.linkedin.com/in/eoin-pinaqui/" target="_blank" class="icon"><i class="fab fa-linkedin social"></i></a>
-        <a href="https://github.com/eoinpinaqui" target="_blank" class="icon"><i class="fab fa-github-square social"></i></a>
-      </div>
-    </div>
-    </div>
-    </div>
 
-  <footer>
-  <div class="container text-center">
-  <hr>
-  <div class="row text-center">
-    <div class="text-center" style="margin: 0 auto">
-    <h5>Contact</h5>
-    <p>pinaquie@tcd.ie<br>
-    <a href="https://www.linkedin.com/in/eoin-pinaqui/" target="_blank">Eoin Pinaqui on LinkedIn</a><br>
-    <a href="https://github.com/eoinpinaqui" target="_blank">eoinpinaqui on GitHub</a></p>
+  <div id="home" class="window">
+    <div class="center text-center">
+        <img class="circle" src="img/headshot.jpg">
+        <h1 class="text-center">Eoin Pinaqui</h1>
+        <h3 class="text-center">Hardworking | Talented | Dependable</h3>
+      </div>
+  </div>
+
+  <div id="about" class="window">
+    <div class="center">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container">
+            <h1>Hi there!</h1>
+            <h3>My name is Eoin Pinaqui and I am an undergraduate Computer Science student in Trinity College Dublin. Studying computer science has allowed me to marry my interests in technology, problem-solving and innovation. My main passions lie in software engineering and leadership.<br><br>In 2018, I was chosen as a recipient of the Naughton Foundation Scholarship because my Leaving Certificate results placed me in the top 0.01% of students in Ireland. This academic success has followed me into college where I won the Book Prize for my results in my Junior Freshman Year and placed sixth in my class of over one hundred students.<br><br>In 2017, I won the National Rotary Youth Leadership Development Competition. This competition recognizes leadership potential in young people and is conducted through a series of intense interviews, covering topics such as immigration and climate change. In the same year, I served as an Irish Youth Delegate to the European Parliament at a Euroscola event, where I was elected spokesperson for Climate Action and Green Energy.</h3>
+            <div class="text-center"><a type="button" href="data/Resume - Eoin Pinaqui.pdf" target="_blank" class="btn btn-dark" id="cv">See my CV</a></div>
+          </div>
+        </div>
+        <div class = "col-lg-6 text-center">
+          <img id="bayonne" src="img/cute.jpg">
+        </div>  
+      </div>
     </div>
   </div>
+
+  <div id="projects" class="window">
+    <div class="center">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container">
+            <h1>Projects that I am proud of</h1>
+          </div>
+        </div>
+        <div class="col-lg-6"></div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/NetSoc.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Netsoc Webspaces</h3>
+              <p class="card-text">Collaborated on a team that created a web application that allows Dublin University Internet Society members to interact with the linux containers that their websites are hosted on. I used VueJS and Flask to build the frontend portion of the application and was heavily involved in the design of the backend, which uses Traefik and Redis to route http requests to webspaces.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/OpenFlow.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Open Flow Implementation</h3>
+              <p class="card-text">I received 105% on my implementation of the Open Flow routing protocol with extra credit. This project allows users to send messages across a network of Open Flow switches and uses Dijkstra's Algorithm to determine the shortest path between two endpoints. This project was developed with Docker to communicate between Docker containers.</p>
+              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Open-Flow" target="_blank" class="btn btn-dark">See this project on Github</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/calculator.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Postfix and Infix Calculator</h3>
+              <p class="card-text">This C program allows a user to evaluate both postfix and infix expressions by passing them through the command line as paramaters. This program makes heavy use of pointer arithmetic and uses a simple stack data structure that I wrote to evaluate the results of the expressions.</p>
+              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Calculator" target="_blank" class="btn btn-dark">See this project on Github</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/Connect-4.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Connect Four</h3>
+              <p class="card-text">This ARM Assembly Language project allows a user to play a game of Connect 4 in the console. You can play locally with two players or a single player can take on the computer. This project uses ARM assembly language subroutines and pointer arithmetic to initialise and manipulate the connect four board. I received a grade of 98% on this project.</p>
+              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Connect-4" target="_blank" class="btn btn-dark">See this project on Github</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/processor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Microprogrammed Instruction Set Processor</h3>
+              <p class="card-text">This implementation of a Microprogrammed Instruction Set Processor uses VHDL to simulate all of the necessary components, from multiplexers to arithmetic logic units. I completed this project as part of my Computer Architecture 1 class.</p>
+              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/processor_vhdl" target="_blank" class="btn btn-dark">See this project on Github</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/tcdnews.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">TCD News</h3>
+              <p class="card-text">I acted as the project manager in my Programming Project 1 module, where my team and I created a social news aggregator. I created all of the widgets and queries that allow a user to navigate through over 4GB of HackerNews stories and comments. These widgets include drop-down menus, search-bars and all other navigation tools. Our team received a grade of 89% on this project.</p>
+              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/TCD-News" target="_blank" class="btn btn-dark">See this project on Github</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  </footer>
+  
+  <div id="contact" class="window">
+    <div class="center">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container">
+            <h1>Get in touch</h1>
+          </div>
+        </div>
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+        <div class="container">
+          <form action="mailto:pinaquie@tcd.ie" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>  
+
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

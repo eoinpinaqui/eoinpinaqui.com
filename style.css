@@ -1,76 +1,101 @@
+/* General styling*/
+body {
+	font-family: 'Heebo', sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: calc(30px + 2vw);
+	font-weight: 900;
+}
+
+h3 {
+	font-size: calc(12px + 0.3vw);
+	font-weight: 300;
+}
+
 .text-center {
 	text-align: center;
 }
 
-.navbar {
-	background-color: rgb(240, 240, 240) !important;
-	border-bottom: 1px solid rgb(210, 210, 210);
+.window {
+	padding-top: 75px;
+	height: 100vh;
+	display: table;
 }
 
-.navbar-brand {
-	margin: 0 75px 0 25px;
+.center {
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
 }
 
+.card {
+	width: 80%;
+	margin: 25px auto;
+}
+
+.card-title {
+	font-family: 'Heebo', sans-serif !important;
+	font-weight: 700 !important;
+}
+
+.card-text {
+	font-family: 'Heebo', sans-serif !important;
+	font-weight: 300 !important;
+}
+
+/* Nav Styling */
+#nav {
+	background-color: black !important;
+	border: none;
+	text-align: center;
+}
+
+.nav-link {
+	font-family: 'Heebo', sans-serif !important;
+	font-weight: 700 !important;
+	color: #c9c9c9 !important;
+	margin: 0 25px;
+}
+
+/* Home styling */
 #home {
-	background-color: rgb(256, 256, 256) !important;
+	padding-top: 100px;
+	height: 100vh;
+	display: table;
 }
 
-.display-4 {
-	font-weight: 900;
-	color: rgb(0, 171, 68);
-	font-size: 2.8em;
+.welcome {
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-.indent {
-	margin: 0 0 0 20px;
+#home h1 {
+	font-size: calc(80px + 4vw);
 }
 
+#home h3 {
+	font-size: calc(20px + 1vw);
+	font-weight: 400;
+}
+
+/* About Styling */
+#cv {
+	margin: 25px 0 25px 0;
+	padding: 0 50px;
+	font-size: calc(25px + 0.5vw) !important;
+	font-weight: 700;
+}
+
+/* Image Styling */
 .circle {
 	border-radius: 50%;
+	width: 20vw;
+	margin-bottom: 25px;
+}
+
+#bayonne {
 	width: 80%;
-}
-
-.CV {
-	margin: 0 0 50px 0;
-}
-
-.content {
-	margin-top: 5em;
-}
-
-.card-deck {
-	margin-top: 3em !important;
-}
-
-.margin-top {
-	margin: 20px 0 0 0;
-}
-
-.fa-linkedin {
-	color: #0077B5;
-}
-
-.fa-linkedin:hover {
-	color: #006091;
-} 
-
-.fa-github-square {
-	color: #6cc644;
-}
-
-.fa-github-square:hover {
-	color: #569e36;
-}
-
-.icon {
-	font-size: 5em;
-	margin: 0 10px;
-}
-
-.footer {
-	background-color: rgb(240, 240, 240) !important;
-}
-
-.links {
-	padding: 25px 0 0 0;
 }
