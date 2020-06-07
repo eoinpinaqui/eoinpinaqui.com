@@ -99,3 +99,25 @@ h3 {
 #bayonne {
 	width: 80%;
 }
+
+/* Icons Styling */
+.fa-linkedin {
+	color: #0077B5;
+}
+
+.fa-linkedin:hover {
+	color: #006091;
+} 
+
+.fa-github-square {
+	color: #6cc644;
+}
+
+.fa-github-square:hover {
+	color: #569e36;
+}
+
+.icon {
+	font-size: 5em;
+	margin: 0 10px;
+}
