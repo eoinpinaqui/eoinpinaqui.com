@@ -4,6 +4,15 @@ body {
 	overflow-x: hidden;
 }
 
+.btn {
+	background-color: #2e2e2e !important;
+	color: white !important;
+}
+
+.btn:hover {
+	background-color: black !important;
+}
+
 h1 {
 	font-size: calc(30px + 2vw);
 	font-weight: 900;
