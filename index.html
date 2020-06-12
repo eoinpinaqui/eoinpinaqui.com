@@ -1,151 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
-
-    <title>Eoin Pinaqui</title>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Eoin Pinaqui</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-  <div class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav" style="margin: 0 auto">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>      
-  </div>
-
-  <div id="home" class="window">
-    <div class="center text-center">
-        <img class="circle" src="img/headshot.jpg">
-        <h1 class="text-center">Eoin Pinaqui</h1>
-        <h3 class="text-center">Hardworking | Talented | Dependable</h3>
+    <header>
+      <div class="logo">
+        <h3>Eoin Pinaqui</h3>
       </div>
-  </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#services" class="nav_link">Interests</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+          <li class="nav_item"><a href="#work" class="nav_link">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <div id="about" class="window">
-    <div class="center">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="container">
-            <h1>Hi there!</h1>
-            <h3>My name is Eoin Pinaqui and I am an undergraduate Computer Science student in Trinity College Dublin. Studying computer science has allowed me to marry my interests in technology, problem-solving and innovation. My main passions lie in software engineering and leadership.<br><br>In 2018, I was chosen as a recipient of the Naughton Foundation Scholarship because my Leaving Certificate results placed me in the top 0.01% of students in Ireland. This academic success has followed me into college where I won the Book Prize for my results in my Junior Freshman Year and placed sixth in my class of over one hundred students.<br><br>In 2017, I won the National Rotary Youth Leadership Development Competition. This competition recognizes leadership potential in young people and is conducted through a series of intense interviews, covering topics such as immigration and climate change. In the same year, I served as an Irish Youth Delegate to the European Parliament at a Euroscola event, where I was elected spokesperson for Climate Action and Green Energy.</h3>
-            <div class="text-center"><a type="button" href="data/Resume - Eoin Pinaqui.pdf" target="_blank" class="btn" id="cv">See my CV</a></div>
-          </div>
-        </div>
-        <div class = "col-lg-6 text-center">
-          <img id="bayonne" src="img/cute.jpg">
-        </div>  
-      </div>
-    </div>
-  </div>
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title_intro">
+        Hello! I'm<strong>Eoin Pinaqui.</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle_intro">Computer Science Student</p>
+      <img src="img/headshot.jpg" alt="a picture of Eoin Pinaqui" class="intro_img circle">
+    </section>
 
-  <div id="projects" class="window">
-    <div class="center">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="container">
-            <h1>Projects that I am proud of</h1>
-          </div>
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section_title section_title_services">My Specialities</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Software Engineering</h3>
+          <p>I have professional experience as a Software Development Engineering Intern at Amazon Web Services (AWS) in Dublin. I take pride in my ability to build large applications in languages like Java, Golang, Python, C/C++ and ARM Assembly Language.</p>
         </div>
-        <div class="col-lg-6"></div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/NetSoc.png" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">Netsoc Webspaces</h3>
-              <p class="card-text">Collaborated on a team that created a web application that allows Dublin University Internet Society members to interact with the linux containers that their websites are hosted on. I used VueJS and Flask to build the frontend portion of the application and was heavily involved in the design of the backend, which uses Traefik and Redis to route http requests to webspaces.</p>
-            </div>
-          </div>
+        <div class="service">
+          <h3>Algorithms and Data Structures</h3>
+          <p>Receiving a final mark of 99% in my Algorothms and Data Structures module in college is a testament to my ability to work with complex algorithms and data strucutres. I always endeavour to use efficient programming techniques and useful data structures to bring my code to the next level.</p>
         </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/OpenFlow.png" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">Open Flow Implementation</h3>
-              <p class="card-text">I received 105% on my implementation of the Open Flow routing protocol with extra credit. This project allows users to send messages across a network of Open Flow switches and uses Dijkstra's Algorithm to determine the shortest path between two endpoints. This project was developed with Docker to communicate between Docker containers.</p>
-              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Open-Flow" target="_blank" class="btn">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/calculator.jpg" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">Postfix and Infix Calculator</h3>
-              <p class="card-text">This C program allows a user to evaluate both postfix and infix expressions by passing them through the command line as paramaters. This program makes heavy use of pointer arithmetic and uses a simple stack data structure that I wrote to evaluate the results of the expressions.</p>
-              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Calculator" target="_blank" class="btn">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/Connect-4.jpg" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">Connect Four</h3>
-              <p class="card-text">This ARM Assembly Language project allows a user to play a game of Connect 4 in the console. You can play locally with two players or a single player can take on the computer. This project uses ARM assembly language subroutines and pointer arithmetic to initialise and manipulate the connect four board. I received a grade of 98% on this project.</p>
-              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/Connect-4" target="_blank" class="btn">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/processor.jpg" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">Microprogrammed Instruction Set Processor</h3>
-              <p class="card-text">This implementation of a Microprogrammed Instruction Set Processor uses VHDL to simulate all of the necessary components, from multiplexers to arithmetic logic units. I completed this project as part of my Computer Architecture 1 class.</p>
-              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/processor_vhdl" target="_blank" class="btn">See this project on Github</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="img/tcdnews.png" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">TCD News</h3>
-              <p class="card-text">I acted as the project manager in my Programming Project 1 module, where my team and I created a social news aggregator. I created all of the widgets and queries that allow a user to navigate through over 4GB of HackerNews stories and comments. These widgets include drop-down menus, search-bars and all other navigation tools. Our team received a grade of 89% on this project.</p>
-              <div class="text-center"><a type="button" href="https://github.com/eoinpinaqui/TCD-News" target="_blank" class="btn">See this project on Github</a></div>
-            </div>
-          </div>
+        <div class="service">
+          <h3>Machine Learning</h3>
+          <p>In my spare time, I am working to deepen my understanding and gain meaningful experience in the field of Artifical Intelligence and Machine Learning. Keep your eyes peeled for projects on my Github in this area!</p>
         </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="row" id="contact" style="margin-top: 200px; margin-bottom: 100px">
-    <div class="container text-center">
-      <h1>Get in touch!</h1>
-      <a href="https://www.linkedin.com/in/eoin-pinaqui/" target="_blank" class="icon"><i class="fab fa-linkedin social"></i></a>
-      <a href="https://github.com/eoinpinaqui" target="_blank" class="icon"><i class="fab fa-github-square social"></i></a>
-      <h3>Email: <a href="mailto:pinaquie@tcd.ie">pinaquie@tcd.ie</a></h3>
-    </div>
-  </div>
-    
+      <a href="data/Resume - Eoin Pinaqui.pdf" target="_blank" class="btn">See my CV</a>
+    </section>
 
-  
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section_title section_title_about">Who am I?</h2>
+      <p class="section_subtitle section_subtitle_about">Young software engineer based in Dublin</p>
+
+      <div class="about-me_body">
+        <p>Studying computer science has allowed me to marry my interests in technology, problem-solving and innovation. I am particularly interested in pursuing a career in machine learning in the future and I have completed many programming projects and competitions to gain experience in the field of software engineering.</p>
+        <p>I was chosen as a recipient of the Naughton Foundation Scholarship in 2018 because my Leaving Certificate results placed me in the top 0.01% of students in Ireland. This academic success has followed me into college where I won the Book Prize for my results in my Junior Freshman Year and placed sixth in my class of over one hundred students. </p>
+        <p>In 2017, I won the National Rotary Youth Leadership Development Competition. This competition recognizes leadership potential in young people and is conducted through a series of intense interviews, covering topics such as immigration and climate change. In the same year, I served as an Irish Youth Delegate to the European Parliament where I was elected spokesperson for Climate Action and Green Energy.</p>
+      </div>
+      <img src="img/cute.jpg" alt="a picture of Eoin Pinaqui in sunglasses" class="about-me_img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section_title">My work</h2>
+      <p class="section_subtitle section_subtitle_work">Projects that I'm proud of</p>
+
+      <div class="portfolio">
+        <!-- Netsoc -->
+        <a href="https://github.com/SWENG-2020-G29/webspace-ng" target="_blank" class="portfolio_item">
+          <img src="img/netsoc.png" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Open Flow -->
+        <a href="https://github.com/eoinpinaqui/Open-Flow" target="_blank" class="portfolio_item">
+          <img src="img/network.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Calculator -->
+        <a href="https://github.com/eoinpinaqui/Calculator" target="_blank" class="portfolio_item">
+          <img src="img/calculator.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Processor -->
+        <a href="https://github.com/eoinpinaqui/processor_vhdl" target="_blank" class="portfolio_item">
+          <img src="img/processor.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- TCD News -->
+        <a href="https://github.com/eoinpinaqui/TCD-News" target="_blank" class="portfolio_item">
+          <img src="img/tcdnews.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Connect 4 -->
+        <a href="https://github.com/eoinpinaqui/Connect-4" target="_blank" class="portfolio_item">
+          <img src="img/Connect-4.jpg" alt="" class="portfolio_img">
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      <a href="mailto:pinaquie@tcd.ie" class="footer_link">pinaquie@tcd.ie</a>
+      <ul class="social-list">
+        <li class="social-list_item">
+          <a class="social-list_link" href="https://www.linkedin.com/in/eoin-pinaqui/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social-list_item">
+          <a class="social-list_link" href="https://github.com/eoinpinaqui"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>  
 </html>
