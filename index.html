@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Eoin Pinaqui</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h3>Eoin Pinaqui</h3>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#services" class="nav_link">Interests</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+          <li class="nav_item"><a href="#work" class="nav_link">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title_intro">
+        Hello! I'm<strong>Eoin Pinaqui.</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle_intro">Computer Science Student</p>
+      <img src="img/headshot.jpg" alt="a picture of Eoin Pinaqui" class="intro_img circle">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section_title section_title_services">My Specialities</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Software Engineering</h3>
+          <p>I have professional experience as a Software Development Engineering Intern at Amazon Web Services (AWS) in Dublin. I take pride in my ability to build large applications in languages like Java, Golang, Python, C/C++ and ARM Assembly Language.</p>
+        </div>
+        <div class="service">
+          <h3>Algorithms and Data Structures</h3>
+          <p>Receiving a final mark of 99% in my Algorothms and Data Structures module in college is a testament to my ability to work with complex algorithms and data strucutres. I always endeavour to use efficient programming techniques and useful data structures to bring my code to the next level.</p>
+        </div>
+        <div class="service">
+          <h3>Machine Learning</h3>
+          <p>In my spare time, I am working to deepen my understanding and gain meaningful experience in the field of Artifical Intelligence and Machine Learning. Keep your eyes peeled for projects on my Github in this area!</p>
+        </div>
+      </div>
+      <a href="data/Resume - Eoin Pinaqui.pdf" target="_blank" class="btn">See my CV</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section_title section_title_about">Who am I?</h2>
+      <p class="section_subtitle section_subtitle_about">Young software engineer based in Dublin</p>
+
+      <div class="about-me_body">
+        <p>Studying computer science has allowed me to marry my interests in technology, problem-solving and innovation. I am particularly interested in pursuing a career in machine learning in the future and I have completed many programming projects and competitions to gain experience in the field of software engineering.</p>
+        <p>I was chosen as a recipient of the Naughton Foundation Scholarship in 2018 because my Leaving Certificate results placed me in the top 0.01% of students in Ireland. This academic success has followed me into college where I won the Book Prize for my results in my Junior Freshman Year and placed sixth in my class of over one hundred students. </p>
+        <p>In 2017, I won the National Rotary Youth Leadership Development Competition. This competition recognizes leadership potential in young people and is conducted through a series of intense interviews, covering topics such as immigration and climate change. In the same year, I served as an Irish Youth Delegate to the European Parliament where I was elected spokesperson for Climate Action and Green Energy.</p>
+      </div>
+      <img src="img/cute.jpg" alt="a picture of Eoin Pinaqui in sunglasses" class="about-me_img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section_title">My work</h2>
+      <p class="section_subtitle section_subtitle_work">Projects that I'm proud of</p>
+
+      <div class="portfolio">
+        <!-- Netsoc -->
+        <a href="https://github.com/SWENG-2020-G29/webspace-ng" target="_blank" class="portfolio_item">
+          <img src="img/netsoc.png" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Open Flow -->
+        <a href="https://github.com/eoinpinaqui/Open-Flow" target="_blank" class="portfolio_item">
+          <img src="img/network.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Calculator -->
+        <a href="https://github.com/eoinpinaqui/Calculator" target="_blank" class="portfolio_item">
+          <img src="img/calculator.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Processor -->
+        <a href="https://github.com/eoinpinaqui/processor_vhdl" target="_blank" class="portfolio_item">
+          <img src="img/processor.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- TCD News -->
+        <a href="https://github.com/eoinpinaqui/TCD-News" target="_blank" class="portfolio_item">
+          <img src="img/tcdnews.jpg" alt="" class="portfolio_img">
+        </a>
+
+        <!-- Connect 4 -->
+        <a href="https://github.com/eoinpinaqui/Connect-4" target="_blank" class="portfolio_item">
+          <img src="img/Connect-4.jpg" alt="" class="portfolio_img">
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      <a href="mailto:pinaquie@tcd.ie" class="footer_link">pinaquie@tcd.ie</a>
+      <ul class="social-list">
+        <li class="social-list_item">
+          <a class="social-list_link" href="https://www.linkedin.com/in/eoin-pinaqui/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social-list_item">
+          <a class="social-list_link" href="https://github.com/eoinpinaqui"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>  
+</html>
