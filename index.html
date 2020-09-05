@@ -1,107 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <title>Eoin Pinaqui</title>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Eoin Pinaqui</title>
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1be666c2de.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-    <!-- Welcome section -->
-    <section class="welcome">
-      <div class="welcome_card">
-        <img src="img/headshot.jpg" alt="Eoin Pinaqui" class="welcome_img" />
-        <h1 class="welcome_title">Hello! I'm <strong>Eoin Pinaqui.</strong></h1>
-      </div>
-    </section>
+<!-- Welcome section -->
+<section class="welcome" id="welcome">
+    <div class="welcome_text">
+        <h1 class="welcome_title">Hello, I'm <strong class="welcome_emphasis">Eoin Pinaqui</strong></h1>
+        <h3 class="welcome_subtitle">Computer Science Student </h3>
+    </div>
+    <div class="image_wrapper">
+        <img class="welcome_image" src="img/headshot.jpg" alt="Eoin Pinaqui smiling"/>
+    </div>
+</section>
 
-    <!-- About section -->
-    <section class="about">
-      <div class="about_card">
-        <h1 class="about_title">Who am I?</h1>
-        <h2 class="about_subtitle">Computer Science student and Software Engineer</h2>
-        <div class="about_body">
-          <p class="about_text">I am an ambitious Computer Science student in Trinity College Dublin with professional experience as a
-            Software Engineering Development Intern at Amazon Web Services (AWS).<br/>Studying Computer
-            Science has allowed me to marry my interests in technology, problem-solving and innovation. I am
-            particularly interested in pursuing a career in machine learning in the future and I have
-            completed many software engineering projects in my spare time.<br/>I was selected as one of 36
-            Naughton Foundation scholars nationwide in 2018. This scholarship is worth €20,000 and is awarded
-            on the basis of demonstrated leadership skills and academic success in the Leaving Certificate. The Naughton
-            Foundation scholarship was established to encourage young people to study STEM subjects in
-            universities throughout Ireland.<br/>In 2017, I won the National Rotary Youth Leadership Development
-            Competition. This competition recognises leadership potential in young people and is conducted
-            through a series of intense interviews, covering topics such as immigration and climate change.
-            In the same year, I served as an Irish Youth Delegate to the European Parliament at a Euroscola
-            event, where I was elected spokesperson for Climate Action and Green Energy.</p>
-          <div class="about_image_wrapper"><img src="img/family.jpg" alt="Eoin Pinaqui and his family" class="about_image" /></div>
+<!-- About section -->
+<section class="about" id="about">
+    <div class="about_body">
+        <div class="about_header">
+            <h1 class="about_title"><strong>Who am I?</strong></h1>
+            <h3 class="about_subtitle">A young software engineer based in Dublin, Ireland.</h3>
         </div>
-      </div>
-    </section>
+        <p class="about_text">
+            I am an ambitious Computer Science student in Trinity College Dublin with professional experience as a
+            Software Development Engineering Intern at Amazon Web Services (AWS).<br/><br/>
+            Studying Computer Science has allowed me to marry my interests in technology, problem-solving and
+            innovation. I am particularly interested in pursuing a career in machine learning in the future and
+            I have completed many software engineering projects in my spare time.<br/><br/>
+            I was selected as on of 36 Naughton Foundation scholars nationwide in 2018. This scholarship is awarded
+            on the basis of demonstrated leadership skills and academic success in the Leaving Certificate. The
+            Naughton foundation scholarship was established to encourage young people to enter the STEM field in
+            universities throughout Ireland.<br/><br/>
+            In 2017, I won the National Rotary Youth Leadership Development Competition. This competition recognises
+            leadership potential in young people and is conducted through a series of intense interviews, covering
+            topics such as immigration and climate change. In the same year, I served as an Irish Youth Delegate
+            to the European Parliament at a Euroscola event, where I was elected spokesperson for Climate Action
+            and Green Energy.
+            <a class="btn" target="_blank" href="data/resume.pdf">
+                <btn id="resume">See my Resume</btn>
+            </a>
+        </p>
+        <div class="image_wrapper">
+            <img class="about_image" src="img/family.jpg" alt="Eoin Pinaqui and his family"/>
+        </div>
+    </div>
+</section>
 
-    <!-- Projects section -->
-    <section class="projects">
-      <div>
-        <h1 class="projects_title">Projects that I'm proud of</h1>
-      </div>
-      <div class="project_card">
-        <h1 class="project_title">AI for Flappy Bird</h1>
-        <div class="project_body">
-          <p class="project_text_beside">Machine learning is an area of computer science that fascinates me. Unfortunately, my university
-            does not offer any courses in this area until fourth year. I simply could not wait until then, so I
-            decided to create this project!<br/>This project uses NeuroEvolution of Augmenting Topologies (NEAT)
-            to train the AI clients. On simple tasks, the NEAT algorithm often arrives at effective networks more
-            quickly than other contemporary neuro-evolutionary techniques and reinforcement learning modules.
-            <br/>This project is written in Python and uses the pygame module
-            to recreate the Flappy Bird game environment. The AI client uses the python-neat module to create
-            the neural networks that play the game.<br/>
-          </p>
-          <div class="project_image_beside_wrapper"><img src="img/flappy.gif" alt="AI for Flappy Bird" class="project_image_beside" /></div>
-          <div class="btn_wrapper"><a href="https://github.com/eoinpinaqui/FlappyBird-AI" target="_blank" class="btn">See this project on Github.</a></div>
+<!-- Skills section -->
+<section class="skills" id="skills">
+    <div class="skills_body">
+        <div class="skills_header">
+            <h1><strong>What do I do?</strong></h1>
         </div>
-      </div>
-      <div class="project_card">
-        <h1 class="project_title">Sorting Visualiser</h1>
-        <div class="project_body">
-          <p class="project_text">After completing my Algorithms and Data Structures module in college, I wanted to deepen
-            my understanding of the algorithms that we had studied. I also wanted to explore new front-end technologies to broaden
-            web-development skills. Making this sorting visualiser allowed me to kill both of those birds with the one stone!<br />
-            This project visualises 6 sorting algorithms, Quick sort, Merge sort, Tim sort, Insertion sort, Selection sort and Bubble sort.
-            <br/>This project was my first venture into the React.js framework. I am glad to have added React.js to my
-            tool-belt and I am excited to work on more visually appealing web applications in the future.
-          <div class="btn_wrapper"><a href="https://github.com/eoinpinaqui/sorting" target="_blank" class="btn">See this project on Github.</a></div>
-          <div class="btn_wrapper"><a href="https://eoinpinaqui.github.io/sorting/" target="_blank" class="btn">Visit the web page.</a></div></p>
-          <div class="project_image_wrapper"><img src="img/sorting.gif" alt="Sorting Visualiser" class="project_image" /></div>
+        <div class="skill">
+            <h3 class="skill_title"><strong>Algorithms and Data Structures</strong></h3>
+            <p>Good knowledge of data structures and algorithms is the foundation of writing impressive code. Achieving
+                99% in my Algorithms and Data Structures module in college is a testament to my ability to write
+                efficient code using appropriate algorithms and data structures.<br/><br/>
+                I have experience with algorithm design techniques and analysis, as well as working with complex
+                data structures to create scalable applications that can process large amounts of data quickly.
+            </p>
         </div>
-      </div>
-      <div class="project_card">
-        <h1 class="project_title">Rubik's Cube Visualiser</h1>
-        <div class="project_body">
-          <p class="project_text_beside">I have been obsessed with Rubik's cubes ever since I was a child. My
-            record is around 19 seconds for a single solve. It is not always practical to bring my
-            Rubik's cube around with me, so I decided to make a digital one that I will always have on me!<br />
-            This project uses Processing, a programming language that is based on Java with a focus on visualisation.
-            Users can scramble the cube and attempt to solve it themselves. If they ever get stuck, they can just
-            press the space bar and watch the puzzle solve itself before their very eyes.
-          </p>
-          <div class="project_image_beside_wrapper"><img src="img/rubik.gif" alt="Rubik's Cube Visualiser" class="project_image_beside" /></div>
-          <div class="btn_wrapper"><a href="https://github.com/eoinpinaqui/rubiks-cube-visualiser" target="_blank" class="btn">See this project on Github.</a></div>
+        <div class="skill">
+            <h3 class="skill_title"><strong>Creative Problem Solving</strong></h3>
+            <p>I pride myself on my ability to compartmentalise all aspects of a problem before attempting a solution.
+                This problem solving technique deepens my understanding of an issue before tackling it
+                and gives allows me to plan a solution effectively.<br/><br/>
+                I endeavour to create permanent solutions rather than temporary ones and I have experience leading
+                software engineering teams in college to tackle issues in this manner.
+            </p>
         </div>
-      </div>
-      <div class="project_card">
-        <h1 class="project_title">Microcoded Instruction Set Processor</h1>
-        <div class="project_body">
-          <p class="project_text_beside">This assignment was worth 70% of my overall grade in my Computer Architecture 1 module in college. I received a grade
-            of 98% on this VHDL implementation. This project simulates a microcoded instruction set processor that can perform arithmetic,
-            logic and shifting operations, as well as conditional/unconditional branching by reading in user-provided machine code from memory.
-            <br />All of the components that are used in this project have test-benches associated with them to ensure functionality is correct.
-          </p>
-          <div class="project_image_beside_wrapper" ><img src="img/schematic.PNG" alt="Processor schematic" class="project_image_beside" /></div>
-          <div class="btn_wrapper"><a href="https://github.com/eoinpinaqui/processor_vhdl" target="_blank" class="btn">See this project on Github.</a></div>
+        <div class="skill">
+            <h3 class="skill_title"><strong>Machine Learning & Data Science</strong></h3>
+            <p>My university does not offer any modules in these areas until final year. I simply cannot wait that
+                long, so I have been teaching myself as much as I can about this exciting area of Computer Science
+                in my spare time.<br/><br/>
+                I have experience using regression analysis, k-nearest neighbours and k-means clustering to analyse
+                data sets. I have also used NeuroEvolution of Augmenting Topologies (NEAT) in some side projects.
+            </p>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
-  </body>  
+<!-- Projects section -->
+<section class="projects" id="projects">
+    <div class="projects_body">
+        <div class="projects_title">
+            <h1><strong>Projects that I'm proud of</strong></h1>
+        </div>
+
+        <!-- AI for Flappy Bird  -->
+        <div class="project_card">
+            <div class="project_header">
+                <h2 class="project_title">AI for Flappy Bird</h2>
+                <h3 class="project_subtitle">Python with pygame and python-neat</h3>
+            </div>
+            <div class="project_body">
+                <div class="project_text">
+                    <p>
+                        In my pursuit of teaching myself machine learning, I decided to create this project. This
+                        project uses NeuroEvolution of Augmenting Topologies (NEAT) to train AI clients to play a clone
+                        of the game Flappy Bird.<br/><br/>
+                        On simple tasks, the NEAT algorithm often arrives at effective networks more
+                        quickly than other contemporary neuro-evolutionary techniques and reinforcement learning
+                        modules.<br/><br/>
+                        This project is written in Python and uses the pygame module to recreate the Flappy bird game
+                        environment. The AI client uses the python-neat module to create neural networks that play the
+                        game.
+                        <a class="btn" target="_blank" href="https://github.com/eoinpinaqui/FlappyBird-AI">
+                            <btn>See this project on Github</btn>
+                        </a>
+                    </p>
+                </div>
+                <div class="image_wrapper">
+                    <img class="project_image" src="img/flappy.gif" alt="AI for Flappy Bird"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sorting Visualiser  -->
+        <div class="project_card">
+            <div class="project_header">
+                <h2 class="project_title">Sorting Visualiser</h2>
+                <h3 class="project_subtitle">React.js</h3>
+            </div>
+            <div class="project_body_image_under">
+                <div class="project_text">
+                    <p>
+                        After completing my Algorithms and Data Structures module in college, I wanted to deepen
+                        my understanding of the algorithms that we had studied. I also wanted to explore new front-end
+                        technologies that are not covered in my university, to broaden my web-development skills.
+                        Making this sorting visualiser allowed me to kill both of those birds with the one
+                        stone!<br/><br/>
+                        This project was my first venture into the React.js framework. This responsive web application
+                        allow users to visualise six sorting algorithms: Quick sort, Merge sort, Tim sort, Insertion
+                        sort, Selection sort and Bubble sort. Please check this project out to see how the different
+                        sorting algorithms work!
+                        <a class="btn" target="_blank" href="https://github.com/eoinpinaqui/sorting/tree/master">
+                            <btn>See this project on Github</btn>
+                        </a>
+                        <a class="btn" target="_blank" href="https://eoinpinaqui.github.io/sorting/">
+                            <btn>See the web page</btn>
+                        </a>
+                    </p>
+                </div>
+                <div class="image_wrapper">
+                    <img class="project_image_under" src="img/sorting.gif" alt="Sorting Visulaiser"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rubik's Cube Visualiser  -->
+        <div class="project_card">
+            <div class="project_header">
+                <h2 class="project_title">Rubik's Cube Visualiser</h2>
+                <h3 class="project_subtitle">Processing and Java</h3>
+            </div>
+            <div class="project_body">
+                <div class="project_text">
+                    <p>
+                        I have been obsessed with Rubik's cubes ever since I was a child. My record is around 19
+                        seconds for a single solve. It is not always practical to bring a Rubik's cube around with me,
+                        so I decided to make a digital one that I will always have on my laptop!<br/><br/>
+                        This project uses Processing, a programming language that is based on Java syntax with a focus
+                        on visualisation. This project allows users to scramble the cube and attempt to solve it
+                        themselves.
+                        If they ever get stuck, they can just press the space bar and watch the puzzle solve itself
+                        before their very eyes.
+                        <a class="btn" target="_blank" href="https://github.com/eoinpinaqui/rubiks-cube-visualiser">
+                            <btn>See this project on Github</btn>
+                        </a>
+                    </p>
+                </div>
+                <div class="image_wrapper">
+                    <img class="project_image" src="img/rubik.gif" alt="Rubik's Cube Visualiser"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- VHDL Processor  -->
+        <div class="project_card">
+            <div class="project_header">
+                <h2 class="project_title">Microcoded Instruction Set Processor</h2>
+                <h3 class="project_subtitle">VHSIC Hardware Description Language</h3>
+            </div>
+            <div class="project_body">
+                <div class="project_text">
+                    <p>
+                        This assignment was worth 70% of my overall grade in my Computer Architecture 1 module in
+                        college. I received a grade of 98% on this VHDL project. This assignment simulates a microcoded
+                        instruction set processor that can perform arithmetic, logic and shifting operations as well as
+                        conditional and unconditional branching.<br/><br/>
+                        The processor reads user-provided machine code from memory. All of the components that I created
+                        in this project have test-benches that ensure that their functionality is correct.
+                        <a class="btn" target="_blank" href="https://github.com/eoinpinaqui/processor_vhdl">
+                            <btn>See this project on Github</btn>
+                        </a>
+                    </p>
+                </div>
+                <div class="image_wrapper">
+                    <img class="project_image" src="img/schematic.PNG" alt="Schematic of Processor"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="contact_element">
+        <h2><strong>Get in touch.</strong></h2>
+        <a target="_blank" href="mailto: pinaquie@tcd.ie"><i class="far fa-envelope"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/eoin-pinaqui/"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/eoinpinaqui"><i class="fab fa-github-square"></i>
+    </div>
+</section>
+
+</body>
 </html>
